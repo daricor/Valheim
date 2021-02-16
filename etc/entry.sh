@@ -15,8 +15,7 @@ if [ ! -e "/home/linuxgsm/serverfiles" ]; then
 	
 	bash linuxgsm.sh vhserver	
 	echo "Server is installing"
-	./vhserver install
-
+	printf "y\ny\nn\n" | ./vhserver install
 fi
 
 
