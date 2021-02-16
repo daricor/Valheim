@@ -11,7 +11,8 @@ deregister_runner() {
 trap deregister_runner SIGINT SIGQUIT SIGTERM
 
 # If server is missing, then it's a fresh start 
-if [ ! -e "/home/linuxgsm/serverfiles" ]; then
+if [ ! -e "/home/linuxgsm/serverfiles" ]
+then
 	
 	bash linuxgsm.sh vhserver	
 	echo "Server is installing"
