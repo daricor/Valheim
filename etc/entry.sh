@@ -26,3 +26,6 @@ echo "startparameters=\"-name '\${servername}' -password \${serverpassword} -por
 echo "Server is starting"
 
 ./vhserver start
+
+./vhserver console
+
