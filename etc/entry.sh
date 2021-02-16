@@ -27,5 +27,5 @@ echo "Server is starting"
 
 ./vhserver start
 
-./vhserver console
+(sleep 1; echo y;) | ./vhserver console
 
